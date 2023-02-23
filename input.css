@@ -24,46 +24,14 @@ body{
     box-sizing: border-box;
     border: 9px solid white;
     border-radius: 7px;
-    transform: rotate(10deg);  
-    transition: all 400ms ease;  
+    transform: rotate(5deg);  
+    transition: all 400ms ease;
+    width: fit-content;
 }
 .hpic:hover{
     transform: rotate(0deg); 
 }
-
-.header__frames{
-    transition: all 400ms ease;
-}
-.header__frame{
-    width: 14rem;
-    border: 0.4rem solid var(--color-bg-3);
-    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.5 );
-    position: absolute;
-    transform: rotate(-10deg);
-    transform-origin: bottom left;
-    transition: var(--transition);
-    height: 210px;
-    width: 180px;
-}
-.header__frame img{
-    height: 200px;
-    width: 170px;
-}
-
-.header__frame:nth-child(2){
-    transform: rotate(20deg);
-    top: -2rem;
-    left: 2rem;
-}
-
-.header__frames:hover .header__frame {
-    transform: rotate(0);
-}
-
-.header__frames:hover .header__frame:nth-child(2){
-    top: 0;
-    left: 13rem;
-}    
+   
 .contact__btn{
     border-radius: 50%;
     display: grid;
@@ -73,7 +41,7 @@ body{
 }
 
 .header__btn{
-    background: linear-gradient(-30deg, #fff, rgba(122, 121, 121, 0.801), #fff);
+    background: linear-gradient(30deg, #fff, rgba(7, 7, 7, 0.801), #fff);
     position: absolute;
     right: 6%;
     bottom: -3rem;
